@@ -37,4 +37,8 @@ func main() {
 	fmt.Println("int64 max  =", maxInt64)
 	fmt.Println("int64 min  =", minInt64)
 	fmt.Println("float64    =", pi)
+
+	// Easier way to print type and variable
+	const f = "%T(%v)\n"
+	fmt.Printf(f,isEmployee, isEmployee)
 }
